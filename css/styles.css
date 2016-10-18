@@ -16,6 +16,12 @@ body {
     margin-bottom: -5px;      
 }
 
+@media (max-width: 414px) {
+    .player-box {
+        width: 50%;
+    }
+}
+
 .player-image {
   width: 100%;
 }
