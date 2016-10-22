@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 .flex-container {
@@ -13,7 +14,7 @@ body {
 
 .player-box {
     width: 20%;
-    margin-bottom: -5px;      
+    margin: 25px 0;      
 }
 
 @media only screen 
@@ -26,5 +27,31 @@ and (orientation : portrait) {
 }
 
 .player-image {
-  width: 100%;
+    padding-left: 10%;
+    width: 80%;
+    cursor: pointer;
+}
+
+.header-box {
+    width: 15%;
+    margin: 20px auto;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.title {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: customStyle;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFD700;
+}
+
+@font-face {
+    font-family: customStyle;
+    src: url("../9914.ttf") format("opentype");
 }
