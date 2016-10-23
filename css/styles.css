@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: black;
+    /*background-color: black;*/
+    background-image: url('../images/background.jpg');
 }
 
 .flex-container {
@@ -30,14 +31,11 @@ and (orientation : portrait) {
     margin-left: 10%;
     width: 80%;
     cursor: pointer;
-    border-image-source: url('../images/fire.jpg');
-    border-image-slice: 20;
-    border-image-width: 20;
 }
 
 .header-box {
-    width: 30%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .header-image {
