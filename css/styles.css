@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    /*background-color: black;*/
     background-image: url('../images/background.jpg');
 }
 
@@ -30,6 +29,7 @@ and (orientation : portrait) {
 .player-image {
     margin-left: 10%;
     width: 80%;
+    border: 5px solid black;
     cursor: pointer;
 }
 
